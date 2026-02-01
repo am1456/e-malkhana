@@ -216,6 +216,9 @@ e-malkhana/
 │   │   └── page.tsx                  # Home redirect
 │   ├── components/                   # Reusable UI components
 │   │   └── ui/                       # Shadcn UI components
+│   │   └── Navbar.tsx                # Custom Navigation Bar
+│   ├── context/                      # Context Provider
+│   │   └── AuthProvider.tsx          # NextAuth Session Provider
 │   ├── lib/                          # Utility functions
 │   │   ├── dbConnect.ts              # MongoDB connection
 │   │   └── auth.ts                   # NextAuth configuration
@@ -378,6 +381,6 @@ This project is developed for police evidence management purposes.
 ---
 
 **System Status**: ✅ Production Ready  
-[Vercel Deployed](https://e-malkhana-flax.vercel.app/login)
+**[Vercel Deployed](https://e-malkhana-flax.vercel.app/login)**
 **Last Updated**: February 2026  
 **Version**: 1.0.0
