@@ -35,16 +35,7 @@ export default function DashboardPage() {
 
 
 
-      if (loading) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-100 space-y-4">
-        <div className="w-8 h-8 border-2 border-black border-t-transparent animate-spin" />
-        <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
-          Syncing Personnel Records
-        </p>
-      </div>
-    );
-  }  if (loading) {
+  if (loading) {
     return (
       <div className="flex flex-col items-center justify-center min-h-100 space-y-4">
         <div className="w-8 h-8 border-2 border-black border-t-transparent animate-spin" />
