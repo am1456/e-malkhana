@@ -170,15 +170,17 @@ npm run dev
 
 The application will start at `http://localhost:3000`
 
-### Step 5: First Login (Super Admin)
-Use the pre-configured Super Admin credentials:
-- **Username**: `superadmin`
+### Step 5: Login with Demo Admin Account
+Use the pre-configured demo Admin account to access the system:
+- **Username**: `admin`
 - **Password**: `123abcxyz`
 
-**Important**: Change this password immediately after first login for security.
+**⚠️ WARNING**: Do NOT change this password. If changed, you will lose access to the system.
+
+**Note**: SUPER_ADMIN account is managed by the system creator only.
 
 ### Step 6: Create First Case
-1. Login as Super Admin
+1. Login with admin credentials
 2. Navigate to "Cases" → "New Case"
 3. Fill in case details and properties
 4. System is now ready for use
